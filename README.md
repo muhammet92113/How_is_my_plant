@@ -1,65 +1,80 @@
-# Bitkim Nasıl
+how_is_my_plant
+A mobile application project developed with Flutter. This project is designed to provide users with information and guidance on various topics.
 
-Flutter ile geliştirilmiş bir mobil uygulama projesi. Bu proje, kullanıcılara çeşitli konularda bilgi ve rehberlik sağlamak amacıyla tasarlanmıştır.
+Features
+Modern and user-friendly interface
 
-## Özellikler
+Chatbot feature integrated with Gemini AI
 
-- Modern ve kullanıcı dostu arayüz
-- Gemini AI entegrasyonu ile chatbot özelliği
-- Supabase backend entegrasyonu
-- Cross-platform destek (iOS, Android, Web)
+Supabase backend integration
 
-## Teknolojiler
+Cross-platform support (iOS, Android, Web)
 
-- **Frontend**: Flutter
-- **Backend**: Supabase
-- **AI**: Google Gemini
-- **Edge Functions**: Deno
-- **IoT**: ESP32 (Arduino)
+Technologies
+Frontend: Flutter
 
-## Kurulum
+Backend: Supabase
 
-1. Flutter SDK'yı yükleyin
-2. Projeyi klonlayın:
-   ```bash
-   git clone https://github.com/kullaniciadi/bitkim_nasil.git
-   cd bitkim_nasil
-   ```
-3. Bağımlılıkları yükleyin:
-   ```bash
-   flutter pub get
-   ```
-4. Uygulamayı çalıştırın:
-   ```bash
-   flutter run
-   ```
+AI: Google Gemini
 
-## Proje Bileşenleri
+Edge Functions: Deno
 
-### Flutter Uygulaması
-Ana mobil uygulama, kullanıcı arayüzü ve Gemini AI chatbot entegrasyonu.
+IoT: ESP32 (Arduino)
 
-### Supabase Edge Functions
-Proje, 5 farklı Supabase Edge Function kullanır:
-- **get_plants**: Kullanıcının bitkilerini ve sensör verilerini getirir
-- **create_user_profile**: Yeni kullanıcı profili oluşturur
-- **chatbot_gemini**: Gemini AI ile bitki bakım tavsiyesi verir
-- **send_notification**: Firebase Cloud Messaging ile bildirim gönderir
-- **update_fcm_token**: Kullanıcının FCM token'ını günceller
+Setup
+Install Flutter SDK
 
-Detaylı kurulum ve yapılandırma için `supabase_edge_functions/README.md` dosyasına bakın.
+Clone the project:
 
-### Arduino IoT Sistemi
-ESP32 tabanlı sensör sistemi, bitki izleme için toprak nem ve ışık seviyesi verilerini toplar. Detaylar için `arduino/` klasörüne bakın.
+bash
+Kopyala
+Düzenle
+git clone https://github.com/username/how_is_my_plant.git  
+cd how_is_my_plant  
+Install dependencies:
 
-## Katkıda Bulunma
+bash
+Kopyala
+Düzenle
+flutter pub get  
+Run the app:
 
-1. Bu repository'yi fork edin
-2. Yeni bir branch oluşturun (`git checkout -b feature/yeni-ozellik`)
-3. Değişikliklerinizi commit edin (`git commit -am 'Yeni özellik eklendi'`)
-4. Branch'inizi push edin (`git push origin feature/yeni-ozellik`)
-5. Pull Request oluşturun
+bash
+Kopyala
+Düzenle
+flutter run  
+Project Components
+Flutter Application
+The main mobile app with user interface and Gemini AI chatbot integration.
 
-## Lisans
+Supabase Edge Functions
+The project uses 5 different Supabase Edge Functions:
 
-Bu proje MIT lisansı altında lisanslanmıştır.
+get_plants: Retrieves the user's plants and sensor data
+
+create_user_profile: Creates a new user profile
+
+chatbot_gemini: Provides plant care advice using Gemini AI
+
+send_notification: Sends notifications via Firebase Cloud Messaging
+
+update_fcm_token: Updates the user's FCM token
+
+For detailed setup and configuration, see the supabase_edge_functions/README.md file.
+
+Arduino IoT System
+ESP32-based sensor system collects soil moisture and light level data for plant monitoring. For details, see the arduino/ folder.
+
+Contributing
+Fork this repository
+
+Create a new branch (git checkout -b feature/new-feature)
+
+Commit your changes (git commit -am 'Add new feature')
+
+Push the branch (git push origin feature/new-feature)
+
+Create a Pull Request
+
+License
+This project is licensed under the MIT License.
