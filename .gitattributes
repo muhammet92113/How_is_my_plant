@@ -1,2 +1,7 @@
+# Arduino dosyaları Arduino dili olarak işaretlenir
 *.ino linguist-language=Arduino
+
+# Flutter (Dart) dosyaları Dart olarak işaretlenir
 *.dart linguist-language=Dart
+
+# Eğer başka tür dosya varsa ona göre ekleme yapabilirsin
