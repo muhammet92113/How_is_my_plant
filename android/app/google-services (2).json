@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "609161750076",
+    "project_id": "bitkimnasil",
+    "storage_bucket": "bitkimnasil.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609161750076:android:c6cc6203c34b8614a00539",
+        "android_client_info": {
+          "package_name": "com.bitkimnasil.sdk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5WGKcUophpY0ttU6VRIldSPBggdEg-1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
